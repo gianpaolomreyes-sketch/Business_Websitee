@@ -1,21 +1,3 @@
-.reviews-hero {
-    padding: 100px 0;
-    background-color: #382C23;
-    color: #F6F1E7;
-    text-align: center;
-}
-.reviews-hero .section-subtitle {
-    color: #B49A70;
-}
-.reviews-hero h1 {
-    font-family: Georgia, serif;
-    font-size: 56px;
-    margin: 20px 0;
-}
-.reviews-hero p {
-    font-size: 16px;
-    line-height: 1.8;
-}
 .reviews-overview {
     padding: 60px 0;
     background-color: #D8CCBA;

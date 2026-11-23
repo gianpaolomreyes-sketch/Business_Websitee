@@ -1,0 +1,94 @@
+.contact-information {
+    padding: 90px 0;
+    background-color: #F6F1E7;
+}
+.contact-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-top: 20px;
+}
+.contact-info-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.contact-info-item {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #D8CCBA;
+}
+.contact-info-item h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.contact-info-item p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+.contact-map {
+    height: 300px;
+    margin-top: 40px;
+    background-color: #D8CCBA;
+}
+.contact-form-section {
+    padding: 90px 0;
+    background-color: #211A15;
+    color: #F6F1E7;
+}
+.contact-form-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-form-heading .section-subtitle {
+    color: #B49A70;
+}
+.contact-form-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin: 20px 0;
+}
+.contact-form-heading p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #F6F1E7;
+    color: #211A15;
+    box-sizing: border-box;
+}
+.contact-form .btn {
+    background-color: #211A15;
+    color: #F6F1E7;
+    border-color: #211A15;
+}
+.contact-form .btn:hover {
+    background-color: transparent;
+    color: #211A15;
+}
+.contact-status {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.contact-closing {
+    padding: 80px 0;
+    background-color: #D8CCBA;
+    text-align: center;
+}
+.contact-closing h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.contact-closing p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
