@@ -1,0 +1,22 @@
+.hero {
+    height: 600px;
+    background-color: #382C23;
+    color: #F6F1E7;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    width: 650px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
