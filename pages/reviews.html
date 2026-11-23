@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | REIS Coffee</title>
+    <link rel="stylesheet" href="../css/style.css">   
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/Logo_Crown.png" alt="REIS Logo">
+                <img src="../assets/Logo_Text.png" alt="REIS Coffee">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/menu.html">Menu</a></li>
+                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/reviews.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="reviews-hero">
+            <div class="container">
+                <p class="section-subtitle">CUSTOMER EXPERIENCES</p>
+                <h1>Words From Our Customers.</h1>
+                <p>Every cup tells a story. Discover the experiences and moments shared by our customers.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- RATING OVERVIEW -->
+
+        <section class="reviews-overview">
+            <div class="container">
+                <div class="rating-summary">
+                    <h2>Customer Satisfaction</h2>
+                    <p>We value every experience and every piece of feedback shared with us.
+                    </p>
+                </div>
+                <div class="rating-stat">
+                    <h3>5 / 5</h3>
+                    <p>Overall Rating</p>
+                </div>
+            </div>
+        </section>
+        <section class="customer-reviews">
+            <div class="container">
+                <div class="reviews-heading">
+                    <p class="section-subtitle">HEAR FROM OUR CUSTOMERS</p>
+                    <h2>Shared Experiences</h2>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card" id="review1">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text"> "A wonderful coffee experience. The attention to detail makes every cup special."</p>
+                        <div class="review-author">
+                            <h3>Customer Name</h3>
+                            <p>Product Ordered</p>
+                        </div>
+                    </div>
+                    <div class="review-card" id="review2">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text"> "A wonderful coffee experience. The attention to detail makes every cup special."</p>
+                        <div class="review-author">
+                            <h3>Customer Name</h3>
+                            <p>Product Ordered</p>
+                        </div>
+                    </div>
+                    <div class="review-card" id="review3">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text"> "A wonderful coffee experience. The attention to detail makes every cup special."</p>
+                        <div class="review-author">
+                            <h3>Customer Name</h3>
+                            <p>Product Ordered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="leave-review">
+            <div class="container">
+                <p class="section-subtitle">YOUR EXPERIENCE MATTERS</p>
+                <h2>We'd Love to Hear From You.</h2>
+                <p>Your feedback helps us continue improving the REIS Coffee experience.</p>
+                <form class="review-form" id="reviewForm">
+                    <div class="form-group">
+                        <label for="reviewName">Your Name</label>
+                        <input type="text" id="reviewName" name="reviewName" placeholder="Enter your name, or leave an anonymous review">
+                    </div>
+                    <div class="form-group">
+                        <label for="productOrdered">Product Ordered</label>
+                        <input type="text" id="productOrdered" name="productOrdered" placeholder="What did you order?" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Rating</label>
+                        <div class="rating-input">
+                            <input type="radio" id="star5" name="rating" value="5" required>
+                            <label for="star5">★</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">★</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">★</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">★</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1">★</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewMessage">Your Feedback</label>
+                        <textarea id="reviewMessage" name="reviewMessage" rows="5" placeholder="Share your experience with us..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Review</button>
+                    <p id="reviewMessageStatus" class="review-status"></p>
+                </form>
+
+                <a href="contact.html" class="btn">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy;REIS Coffee. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
