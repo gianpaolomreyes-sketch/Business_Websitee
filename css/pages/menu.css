@@ -1,0 +1,87 @@
+.menu-categories {
+    padding: 25px 0;
+    background-color: #211A15;
+}
+.menu-categories .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.menu-categories a {
+    color: #F6F1E7;
+    text-decoration: none;
+    font-size: 13px;
+}
+.menu-categories a:hover {
+    color: #B49A70;
+}
+.menu-products {
+    padding: 90px 0;
+    background-color: #F6F1E7;
+}
+.menu-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin: 20px 0;
+}
+.menu-heading p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.menu-card {
+    width: 31%;
+    background-color: white;
+    border: 1px solid #D8CCBA;
+    box-sizing: border-box;
+}
+.menu-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.menu-card-content {
+    padding: 25px;
+}
+.menu-card-category {
+    color: #B49A70;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.menu-card h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin: 15px 0;
+}
+.menu-card-description {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.menu-card-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.menu-closing {
+    padding: 80px 0;
+    background-color: #D8CCBA;
+    text-align: center;
+}
+.menu-closing h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.menu-closing p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
