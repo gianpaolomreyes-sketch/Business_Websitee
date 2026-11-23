@@ -1,0 +1,87 @@
+.gallery-hero {
+    padding: 100px 0;
+    background-color: #382C23;
+    color: #F6F1E7;
+    text-align: center;
+}
+.gallery-hero .section-subtitle {
+    color: #B49A70;
+}
+.gallery-hero h1 {
+    font-family: Georgia, serif;
+    font-size: 56px;
+    margin: 20px 0;
+}
+.gallery-hero p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.gallery-categories {
+    padding: 25px 0;
+    background-color: #211A15;
+}
+.gallery-categories .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.gallery-categories a {
+    color: #F6F1E7;
+    text-decoration: none;
+    font-size: 13px;
+}
+.gallery-categories a:hover {
+    color: #B49A70;
+}
+.gallery-category {
+    padding: 80px 0;
+    background-color: #F6F1E7;
+}
+.gallery-category-dark {
+    background-color: #211A15;
+    color: #F6F1E7;
+}
+.gallery-category-heading {
+    margin-bottom: 40px;
+}
+.gallery-category-heading .section-subtitle {
+    color: #B49A70;
+}
+.gallery-category-heading h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin: 15px 0;
+}
+.gallery-category-heading p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+.gallery-page-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.gallery-page-item {
+    width: 33.33%;
+    height: 280px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: #D8CCBA;
+}
+.gallery-category-dark .gallery-page-item {
+    background-color: #382C23;
+}
+.gallery-closing {
+    padding: 80px 0;
+    background-color: #D8CCBA;
+    text-align: center;
+}
+.gallery-closing h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.gallery-closing p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
